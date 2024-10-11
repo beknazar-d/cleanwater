@@ -1,0 +1,107 @@
+.closeButton {
+    position: relative;
+    left: 340px ;
+    box-sizing: border-box;
+    color: red;
+    width: 20px;
+    border: none;
+}
+.card {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    position: absolute;
+    left: 300px;
+    z-index: 99;
+    background-color: white;
+    
+    
+}
+.visible {
+    display: none;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    height: 100%;
+}
+.datas {
+    height: 100%;
+    width: 350px;
+    position: relative;
+    margin: 0 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.list-of-item {
+    margin-top: 20px;
+}
+.list-item {
+    height: 50px;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+
+.card-input {
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    box-shadow: none;
+    border: 1px solid grey;
+}
+.card-input::placeholder {
+    font-size: 12px;
+}
+.list-item span {
+    margin-left: 5px;
+}
+section span {
+    font-size: 14px;
+}
+.aside-items {
+    margin-top: 10px;
+}
+.cancel-section {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.cancel-section button  {
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    border:1px solid grey;
+    color:white;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+}
+.save-section {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.save-section button {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(40, 103, 211);
+    border-radius: 5px;
+    border:1px solid grey;
+    color:white;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+}

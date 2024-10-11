@@ -1,0 +1,170 @@
+
+.editing-card {
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    position: absolute;
+    left: 170px;
+    z-index: 99;
+    background-color: white;
+    padding: 0;
+    flex-direction: column;
+  
+}
+.none  {
+display: none;
+}
+.h1-section {
+  display: flex;
+  flex-direction: row;
+
+  margin: 0;
+}
+.h1-section h1 {
+  margin-left: 350px;
+
+}
+.x-btn {
+box-sizing: border-box;
+width: 15px;
+height: 15px;
+margin-right: 0;
+background-color: red;
+}
+.main-section1 {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    width: 1100px;
+    height: 499px;
+    margin: 0;
+}
+.first-section {
+width: 400px;
+height: 408px;
+box-sizing: border-box;
+border: 1px solid black;
+padding: 20px 0;
+}
+.section-input {
+    width:200px ;
+    height: 50px;
+    margin: 0;
+}
+.section-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.section-list span {
+    margin-left:2px;
+
+    color: rgb(40, 103, 211);
+    font-size: 25px;
+}
+.second-section {
+width: 700px;
+height: 408px;
+box-sizing: border-box;
+border: 1px solid black;
+margin: 0;
+}
+/* Панель меню */
+.panel-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background-color: #f3f3f3;
+    height: 50px;
+    width: 699px;
+    box-sizing: border-box;
+    margin: 0;
+    flex-shrink: 0; /* Фиксированная высота меню */
+  }
+  .panel-menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 0;
+    width: 100%;
+    justify-content: space-between;
+
+  }
+  .panel-menu-list li {
+    list-style: none;
+  }
+  
+  /* Содержимое панели */
+  .panel-content {
+    flex-grow: 1; /* Расширяется на всё доступное пространство */
+    padding: 10px;
+    overflow-y: auto; /* Скролл при необходимости */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .content-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+    display: flex;
+    gap: 5px;
+  }
+  
+  .content-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    
+    
+  }
+  
+  .content-item span {
+    color: #2867d3;
+    font-size: 18px;
+    margin: 0;
+    width: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .update-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s;
+    width: 100px;
+    background-color:#2867d3 ;
+    border-radius: 3px;
+    margin: 0;
+  }
+  
+  .update-btn:hover {
+    color: #1f4da0;
+  }
+  
+  /* Стилевое оформление для общей секции */
+  .second-section {
+    width: 700px;
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid black;
+  }
+  

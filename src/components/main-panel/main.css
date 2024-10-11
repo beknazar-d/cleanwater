@@ -1,0 +1,57 @@
+.header {
+    height: 50px;
+    display: flex;
+    margin-top: 30px ;
+    gap: 20px;
+}
+.header button {
+    box-sizing: border-box;
+}
+img {
+    height: 45px;
+    width: 80px;
+    margin: 0;
+}
+.add-btn {
+    width:  250px;
+    margin: 0;
+    box-shadow: black 3px;
+}
+
+.button {
+    background-color: rgb(40, 103, 211);
+    position: relative;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 20px;
+    margin: 0 9px;
+    text-align: center;
+    border: 1px solid grey;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #3e8ee3;
+    /* transform: scale(1.05); */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+input {
+    height: 35px;
+    width: 300px;
+    border-radius: 5px solid grey;
+    margin: 0;
+    position: relative;
+}
+input::placeholder {
+    color: #999; /* Цвет текста placeholder */
+    font-size: 16px; /* Размер шрифта */
+    padding-left: 10px; /* Отступ слева для placeholder */
+}
+
+.add-filter-btn {
+    width: 200px;
+}
+.add-cartridge {
+    width: 200px;
+}

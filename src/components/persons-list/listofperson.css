@@ -1,0 +1,42 @@
+.person-list {
+    display: flex; /* Flexbox для выравнивания элементов в строку */
+    justify-content: space-between;
+    align-items: center;
+    
+   
+    margin-bottom:2px ;
+    gap: 5px;
+    padding: 2px 10px;
+}
+
+.person-list person-span:first-child {
+    width: 5%; /* Первый <span> меньше остальных */
+    text-align: center;
+}
+
+.person-list person-span {
+    width: 15%; /* Ширина для всех остальных <span> */
+    text-align: center;
+}
+
+.person-list button {
+    background-color: rgb(89, 203, 242); /* Голубой цвет кнопки */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.person-list button:hover {
+    background-color: deepskyblue; /* Более тёмный голубой при наведении */
+}
+.person-span {
+    border: 1px solid black;
+    padding: 2px 5px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
